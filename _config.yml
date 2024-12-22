@@ -1,0 +1,30 @@
+# Book title and author information
+title: "Loan Default Prediction Project"
+author: "Shruti Devlekar"
+
+# Launch buttons (for JupyterHub or Binder if needed)
+launch_buttons:
+  notebook_interface: "classic"
+
+# Project structure
+exclude_patterns:
+  - "**.ipynb_checkpoints"
+  - "**/__pycache__/*"
+
+# HTML configuration
+html:
+  theme:
+    name: "sphinx_book_theme"
+    options:
+      use_edit_page_button: true
+      use_repository_button: true
+      use_issues_button: true
+
+execute:
+  execute_notebooks: "off"  # Disable execution during the build
+  timeout: -1               # Disable timeout (helpful for long-running cells)
+  allow_errors: true        # Continue building even if there are errors in notebooks
+
+# Table of Contents
+toc:
+  includehidden: false
